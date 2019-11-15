@@ -9,8 +9,13 @@ body {
 }
 
 #page {
-    width: 760px;
-    margin: 0 auto;
+    width: 80%;
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightgreen;
+  border-radius: 5%;
+  border: 2px double white;
 }
 
 #logo {
@@ -23,4 +28,8 @@ h1 {
     font-weight: bold;
 }
 
+img {
+    max-height: 300px;
+    max-width: 200px;
+}
 
