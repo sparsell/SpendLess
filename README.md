@@ -6,8 +6,7 @@ I'm very budget-conscions and while I don't use a budgeting app (I have my own r
 quite extensive), I do keep track in my head when I've spent less than I've allotted or when I get a good deal, when I find a 
 great item at thrift stores, etc. 
 
-I know the psychology is there to prove if you want to really make a change with your behavior, you have to focus on it and (for
-me at least) look at it as often as possible (so, in reality, it could be multiple times a day). If I can have an app that will
+I know the psychology is there to prove if you want to really make a change with your behavior, you have to focus on it and look at it as often as possible (so, in reality, it could be multiple times a day). If I can have an app that will
 total up my day's "savings" in my mental budget keeping, I can feel reallly good about the progress I'm making to spend
 more mindfully and in line with my family's budget goals.  
 

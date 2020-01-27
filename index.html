@@ -23,6 +23,16 @@
                 <div id="greeting">
                         <h1>Hello Sonja!</h1>
                 </div><!--End GREETING div-->
+
+                <div id="greeting">
+                    <h3>timeGreeting, Sonja</h3>
+                </div>
+                <!--End GREETING div-->
+                
+                <div id="date">
+                    <h4>It's <span id="todayDate">Date</span>
+                </div>
+                <!--End DATE div-->
         <!-- Slideshow container -->
         <div class="slideshow-container">
         
@@ -71,27 +81,32 @@
         </div>
 
 
+<div class="page">
 
-                <div id="date">
-                    <h4 id="getDate">Today is</h4> <span id="getDate">Date goes here</span>
-                </div><!--End DATE div-->
-        
-                            <div id="savingAmt">
-                                <h5 class=amountSaved>How much did you not spend?</h5>
-                                <h5>[ccy][input amount here]</h5>
-                            </div>
-                            <!--End SAVINGAMT div-->
-        
-                            <div id="totals">
-                                <h4>Totals</h4>
-                                <select name="Time frame">
-                                    <option value="today">Today</option>
-                                    <option value="thisWeek">This Week</option>
-                                    <option value="thisMonth">This Month</option>
-                                </select>
-                            </div><!--End TOTALS div -->
-            </div>
-        </div> <!--End Page Div-->
+    
+
+    <!-- Amount to show how much you did not spend -->
+
+    <div id="savingAmt">
+        <h5 class=amountSaved>How much did you not spend?</h5>
+        <input type="number">
+    </div>
+    <!--End SAVINGAMT div-->
+
+    <button id="addToTotal"> Add to total</button>
+
+    <div id="totals">
+        <h4>Check your awesome progress:</h4>
+        <select name="Time frame">
+            <option value="today">Today</option>
+            <option value="thisWeek">This Week</option>
+            <option value="thisMonth">This Month</option>
+        </select>
+        <h5>You've not spent_____ this ____!<h5>
+    </div>
+    <!--End TOTALS div -->
+
+</div> <!--End Page Div-->
        <script type="text/javascript" src="script.js"></script>
         </body>
         
