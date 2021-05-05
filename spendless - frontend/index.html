@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Spend &lt; Less</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type=text/css href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Liu+Jian+Mao+Cao|Raleway:100,200&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        
+            <nav>
+                <div id="logo">
+                    <h5>Spend &lt; Less</h5> </div> 
+            </nav> <div class="page">
+                <div id=page>
+                <div id="greeting">
+                        <h1>Hello Sonja.</h1>
+                </div><!--End GREETING div-->
+
+                <div id="greeting">
+                    <h3 id="timeGreeting">time</h3>
+                </div>
+                <!--End GREETING div-->
+                
+                <div id="date">
+                    <h4>It's <span id="todayDate">Date</span></h4>
+                </div>
+                <!--End DATE div-->
+
+                <div id="question">
+                    <h3>Ask yourself this:</h3>
+                    <h4>Is what you're about to purchase more meaningful to you than something like this in your future?</h4>
+                </div>
+                <!--End DATE div-->
+
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+        
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/cat.jpg" style="width:100%">
+                <div class="text">Holiday in Caribbean</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/glos.jpg" style="width:100%">
+                <div class="text">Gloucestershire</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/paris.jpg" style="width:100%">
+                <div class="text">Paris Birthdays</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/regent.jpg" style="width:100%">
+                <div class="text">Christmas in London</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+<div class="page">
+
+    <!-- Amount to show how much you did not spend -->
+
+    <div id="savingAmt">
+        <h5 class=amountSaved>So, how much did you not spend?</h5>
+        <input type="number">
+    </div>
+    <!--End SAVINGAMT div-->
+
+    <button id="addToTotal"> Add to total</button>
+
+    <div id="totals">
+        <h4>Check your awesome progress:</h4>
+        <select name="Time frame">
+            <option value="today">Today</option>
+            <option value="thisWeek">This Week</option>
+            <option value="thisMonth">This Month</option>
+        </select>
+        <h5>You've not spent_____ this ____!<h5>
+    </div>
+    <!--End TOTALS div -->
+
+</div> <!--End Page Div-->
+       <script type="text/javascript" src="script.js"></script>
+        </body>
+        
+        </html>
