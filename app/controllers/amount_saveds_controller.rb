@@ -1,0 +1,2 @@
+class AmountSavedsController < ApplicationController
+end
