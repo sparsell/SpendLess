@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  resources :totals
-  resources :amount_saveds
-  resources :goals
+    namespace :api do
+        namespace :v1 do
+            resources :totals, only: [:index, :create]
+            resources :amount_saveds, only: [:index]
+            resources :goals, only: [:index, :create]
+        end
+    end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

@@ -1,5 +1,4 @@
 class Total < ApplicationRecord
-    has_many :amountSaveds
-    belongs_to :goal
+    has_many :amount_saveds
 
 end

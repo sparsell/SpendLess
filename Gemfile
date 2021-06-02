@@ -8,6 +8,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 gem "nokogiri", ">= 1.11.4"
+gem 'fast_jsonapi'
 
 
 # Use Puma as the app server

@@ -1,2 +1,0 @@
-class TotalsController < ApplicationController
-end
